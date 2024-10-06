@@ -15,15 +15,6 @@ from obspy.signal.trigger import classic_sta_lta
 import math
 
 
-def basemsgraph(mseed_file):
-
-    number = 1.5 * math.pow(10,-9)
-    trace = read(mseed_file)[0]
-    df = trace.stats.sampling_rate
-
-    cft = classic_sta_lta(trace.data, int(453 * df), int(1510* df))
-    plot_trigger(trace, cft, 3.1, 2)
-
 
 # Load the CSV file into a Pandas DataFrame
 file_path = "/Volumes/MinhazHardD/space_apps_2024_seismic_detection/data/lunar/test/data/S12_GradeB/xa.s12.00.mhz.1970-03-30HR00_evid00020.csv"
