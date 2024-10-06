@@ -16,7 +16,7 @@ from obspy.signal.trigger import classic_sta_lta
 import math
 
 
-def basemsgraph(mseed_file):
+def bacemsgraph(mseed_file):
     
     trace = read(mseed_file)[0]
     df = trace.stats.sampling_rate
@@ -161,7 +161,7 @@ ax.set_ylabel('Characteristic function')
 
 
 
-basemsgraph(mseed_file)
+bacemsgraph(mseed_file)
 
 time_occ
 
