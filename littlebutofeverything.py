@@ -17,13 +17,12 @@ import math
 
 
 def basemsgraph(mseed_file):
-
-    number = 1.5 * math.pow(10,-9)
+    
     trace = read(mseed_file)[0]
     df = trace.stats.sampling_rate
 
     cft = classic_sta_lta(trace.data, int(453 * df), int(1510* df))
-    plot_trigger(trace, cft, 3.1, 2)
+    plot_trigger(trace, cft, 2.0, 0.4)
 
 
 # Load the CSV file into a Pandas DataFrame
