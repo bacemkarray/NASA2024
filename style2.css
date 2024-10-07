@@ -889,10 +889,10 @@
 		/* who i am tags begin laptop*/
 		/* code for box holding text  */
 		.box-imgs{
-			width: 30%;
-			height: auto;
-			margin-left: auto;
-			margin-right: auto;
+			width: 5%;
+			height: 5%;
+			margin-left: 0;
+			margin-right: 0;
 			padding-bottom: 30%;
 		}
 		/*  */
