@@ -1,4 +1,8 @@
 
+html{
+	overflow-x: hidden;
+}
+
 @media only screen and (min-width: 100px){ /* mobile screen */
 
 	* {
@@ -28,7 +32,7 @@
 	}
 	
 	.bg-img2{
-		background-image: url(img/purplecitybg);
+		background-image: url(./img/pexels-jonastogo-2681631.jpg);
 		background-attachment: fixed;
 		width: 100vw;
 		height: 250vh;
@@ -392,7 +396,7 @@
 		}
 		/* tablet sstylign */
 		.bg-img2{
-			background-image: url(img/purplecitybg);
+			background-image: url(./img/pexels-jonastogo-2681631.jpg);
 			background-attachment: fixed;
 			width: 100vw;
 			height: 150vh;
@@ -720,7 +724,7 @@
 		}
 	
 		.bg-img2{
-			background-image: url(img/purplecitybg);
+			background-image: url(./img/pexels-jonastogo-2681631.jpg);
 			background-attachment: fixed;
 			width: 100vw;
 			height: 180vh;
